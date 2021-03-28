@@ -1,0 +1,35 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+input{
+    outline: none;
+    border-radius: 1%;
+    height: 1.6rem;
+    font-size: 1rem;
+}
+label{
+    padding: .3rem 0rem;
+}
+.amount-input{
+    width: 7rem;
+    font-size: 1rem;
+}
+.amount-label{
+    color: rgb(0, 12, 65);
+    font-size: bold;
+}
+.form-container button{
+    cursor: pointer;
+    background-color: blue;
+    color: #fff;
+    border: 0;
+    display: block;
+    font-size: 0.9rem;
+    margin: 0.5rem;
+    padding: 0.3rem;
+    box-shadow: rgb(120, 120, 161);
+}

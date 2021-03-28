@@ -1,0 +1,21 @@
+.income-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+.div1 , .div2{
+    padding: 1rem;
+    color: white;
+}
+.title1{
+color: rgb(0, 255, 0);
+font-weight: bold;
+font-size: 1rem;
+}
+.title2{
+    color: red;
+    font-weight: bold;
+    font-size: 1rem;
+}

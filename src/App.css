@@ -1,11 +1,29 @@
 .App {
   text-align: center;
+  background: rgb(15,12,41);
+  background: linear-gradient(90deg, rgba(15,12,41,1) 0%, rgba(114,106,175,1) 53%, rgba(36,36,62,1) 100%);
+  /* width: 100vw; */
+  min-height: 100vh;
+  max-height: fit-content;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.App-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.TransGraph{
+  display: flex;
+  margin: 0.5rem 0rem;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  background:black;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

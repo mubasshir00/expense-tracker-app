@@ -1,0 +1,275 @@
+.container {
+  margin: 0;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  /* min-height: 10vh; */
+  letter-spacing: 0.4rem;
+}
+.div {
+  width: auto;
+  height: 100px;
+  /* margin:0 auto; */
+  float: left;
+  /* align-items: center; */
+  /* text-align: center; */
+  /* justify-content: center; */
+  /* display: flex;
+    flex-direction: row; */
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+@-webkit-keyframes aniload {
+  from {
+    -webkit-transform: translate(0px, 1000px);
+  }
+  to {
+    -webkit-transform: translate(0px, 0px);
+  }
+}
+
+@-moz-keyframes aniload {
+  from {
+    -moz-transform: translate(0px, 1000px);
+  }
+  to {
+    -moz-transform: translate(0px, 0px);
+  }
+}
+
+@-ms-keyframes aniload {
+  from {
+    -ms-transform: translate(0px, 1000px);
+  }
+  to {
+    -ms-transform: translate(0px, 0px);
+  }
+}
+
+@-o-keyframes aniload {
+  from {
+    -o-transform: translate(0px, 1000px);
+  }
+  to {
+    -o-transform: translate(0px, 0px);
+  }
+}
+
+@keyframes aniload {
+  from {
+    transform: translate(0px, 1000px);
+  }
+  to {
+    transform: translate(0px, 0px);
+  }
+}
+
+#div-1 {
+  -webkit-animation: aniload 4s;
+  -moz-animation: aniload 4s;
+  -ms-animation: aniload 4s;
+  -o-animation: aniload 4s;
+  animation: aniload 4s;
+  color: red;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+#div-2 {
+  -webkit-animation: aniload 1s;
+  -moz-animation: aniload 1s;
+  -ms-animation: aniload 1s;
+  -o-animation: aniload 1s;
+  animation: aniload 1s;
+  color: red;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+#div-3 {
+  font-weight: bold;
+  font-size: 1.4rem;
+  -webkit-animation: aniload 4s;
+  -moz-animation: aniload 4s;
+  -ms-animation: aniload 4s;
+  -o-animation: aniload 4s;
+  animation: aniload 4s;
+  color: red;
+}
+
+#div-4 {
+  font-weight: bold;
+  font-size: 1.4rem;
+  -webkit-animation: aniload 3s;
+  -moz-animation: aniload 3s;
+  -ms-animation: aniload 3s;
+  -o-animation: aniload 3s;
+  animation: aniload 3s;
+  color: red;
+}
+
+#div-5 {
+  -webkit-animation: aniload 2s;
+  -moz-animation: aniload 2s;
+  -ms-animation: aniload 2s;
+  -o-animation: aniload 2s;
+  animation: aniload 2s;
+  color: rgb(0, 255, 21);
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+#div-6 {
+  -webkit-animation: aniload 4s;
+  -moz-animation: aniload 4s;
+  -ms-animation: aniload 4s;
+  -o-animation: aniload 4s;
+  animation: aniload 4s;
+  color: rgb(0, 255, 21);
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+#div-7 {
+  -webkit-animation: aniload 1s;
+  -moz-animation: aniload 1s;
+  -ms-animation: aniload 1s;
+  -o-animation: aniload 1s;
+  animation: aniload 1s;
+  color: rgb(0, 255, 21);
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+#div-8 {
+  -webkit-animation: aniload 4s;
+  -moz-animation: aniload 4s;
+  -ms-animation: aniload 4s;
+  -o-animation: aniload 4s;
+  animation: aniload 4s;
+  color: rgb(0, 255, 21);
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+#div-9 {
+  -webkit-animation: aniload 3s;
+  -moz-animation: aniload 3s;
+  -ms-animation: aniload 3s;
+  -o-animation: aniload 3s;
+  animation: aniload 3s;
+  color: rgb(0, 255, 21);
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+#div-10 {
+  -webkit-animation: aniload 2s;
+  -moz-animation: aniload 2s;
+  -ms-animation: aniload 2s;
+  -o-animation: aniload 2s;
+  animation: aniload 2s;
+  color: rgb(0, 255, 21);
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+#div-11 {
+  -webkit-animation: aniload 4s;
+  -moz-animation: aniload 4s;
+  -ms-animation: aniload 4s;
+  -o-animation: aniload 4s;
+  animation: aniload 4s;
+  color: rgb(0, 255, 21);
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+#div-12 {
+  -webkit-animation: aniload 1s;
+  -moz-animation: aniload 1s;
+  -ms-animation: aniload 1s;
+  -o-animation: aniload 1s;
+  animation: aniload 1s;
+  color: rgb(0, 255, 21);
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+#div-13 {
+  -webkit-animation: aniload 4s;
+  -moz-animation: aniload 4s;
+  -ms-animation: aniload 4s;
+  -o-animation: aniload 4s;
+  animation: aniload 4s;
+  color: blue;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+
+#div-14 {
+  -webkit-animation: aniload 3s;
+  -moz-animation: aniload 3s;
+  -ms-animation: aniload 3s;
+  -o-animation: aniload 3s;
+  animation: aniload 3s;
+  color: blue;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+#div-15 {
+  -webkit-animation: aniload 2s;
+  -moz-animation: aniload 2s;
+  -ms-animation: aniload 2s;
+  -o-animation: aniload 2s;
+  animation: aniload 2s;
+  color: blue;
+  font-weight: bold;
+    font-size: 1.4rem;
+}
+#div-16 {
+  -webkit-animation: aniload 4s;
+  -moz-animation: aniload 4s;
+  -ms-animation: aniload 4s;
+  -o-animation: aniload 4s;
+  animation: aniload 4s;
+  color: blue;
+  font-weight: bold;
+    font-size: 1.4rem;
+}
+
+#div-17 {
+  -webkit-animation: aniload 1s;
+  -moz-animation: aniload 1s;
+  -ms-animation: aniload 1s;
+  -o-animation: aniload 1s;
+  animation: aniload 1s;
+  color: blue;
+  font-weight: bold;
+    font-size: 1.4rem;
+}
+
+#div-18 {
+  -webkit-animation: aniload 4s;
+  -moz-animation: aniload 4s;
+  -ms-animation: aniload 4s;
+  -o-animation: aniload 4s;
+  animation: aniload 4s;
+  color: blue;
+  font-weight: bold;
+    font-size: 1.4rem;
+}
+
+#div-19 {
+  -webkit-animation: aniload 3s;
+  -moz-animation: aniload 3s;
+  -ms-animation: aniload 3s;
+  -o-animation: aniload 3s;
+  animation: aniload 3s;
+  color: blue;
+  font-weight: bold;
+    font-size: 1.4rem;
+}
